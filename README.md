@@ -15,10 +15,22 @@ This repository stores instructions and project briefs—not implementation sour
 
 ## Directories
 
-- `templates/`: project-type briefs
+- `templates/`: project-type and project-state templates
 - `prompts/`: reusable execution prompts
-- `contracts/`: quality, security, portability, and handoff rules
-- `schemas/`: machine-readable brief and handoff formats
+- `contracts/`: precedence, quality, security, portability, and handoff rules
+- `checklists/`: upload, integration, and release gates
+- `tests/`: prompt regression scenarios
+- `examples/`: worked workflows
 - `projects/`: completed project-specific briefs
+- `schemas/`: reserved for future machine-consumed formats
+
+## State ownership
+
+- `TASKS.md`: authoritative live task status
+- `MASTER_PLAN.md`: roadmap and dependencies
+- `ARCHITECTURE.md`: stable technical decisions
+- `project-context.md`: stable background
+- `project-state.md`: verified technical/runtime state
+- `HANDOFF.md`: latest session evidence and next action
 
 External model output is provisional until independently verified in OMP.
